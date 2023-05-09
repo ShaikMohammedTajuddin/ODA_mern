@@ -1,5 +1,6 @@
 const {UserModel} = require('../schema/UserSchema')
 const auth = require('../common/auth')
+
 const handleLogin = async(req,res,next)=>{
   console.log("user:",  req.body.email)
   const {email,password} = req.body

@@ -3,6 +3,7 @@ var router = express.Router();
 const indexController = require('../controllers/index')
 const auth = require('../common/auth')
 
+
 router.get('/', indexController.handleHome);
 
 //Apply Appointment

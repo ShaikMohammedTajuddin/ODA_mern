@@ -10,6 +10,7 @@ function NavBar() {
     </div>
     <div className='nav-right'>
 
+
       <div className='nav-item'onClick={()=>{
         sessionStorage.clear()
         navigate('/login')

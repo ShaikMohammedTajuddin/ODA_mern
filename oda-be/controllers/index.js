@@ -5,6 +5,7 @@ const { UserModel } = require('../schema/UserSchema')
 let handleHome=async(req,res,next)=>{
     res.send(`<h1>Welcome to Back-end ExpressJS Home Page..! </h1>`)
   }
+  
 
 let handleApplyAppointment=async(req,res,next)=>{
   try{

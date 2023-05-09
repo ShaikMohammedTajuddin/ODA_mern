@@ -1,5 +1,6 @@
 const mongoose = require('mongoose')
 const validator = require('validator')
+
 const appointment = new mongoose.Schema({
     firstName:{type:String,required:true},
     lastName:{type:String,required:true},

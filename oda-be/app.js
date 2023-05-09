@@ -42,6 +42,7 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
+
 mongoose.set('strictQuery',false)
 
 mongoose.connect(dbUrl, {useNewUrlParser: true,})

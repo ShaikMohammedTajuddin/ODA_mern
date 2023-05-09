@@ -8,6 +8,7 @@ import { toast } from 'react-toastify';
 import { useNavigate,useParams } from 'react-router-dom'; 
 
 
+
 function AppointmentDetails() {
   let role = sessionStorage.getItem('role')
 

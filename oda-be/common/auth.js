@@ -1,5 +1,6 @@
 const bcrypt = require('bcryptjs')
 const jwt = require('jsonwebtoken')
+
 const SALT = 10;
 // const secret = 'IKNkjnKNJKj09090#$@!lknlkn'
 const {secret,MOGOURI} = require('./config/keys')
