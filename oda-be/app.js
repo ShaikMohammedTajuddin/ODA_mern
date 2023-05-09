@@ -44,7 +44,7 @@ app.use(function(err, req, res, next) {
 
 
 mongoose.set('strictQuery',false)
-
+console.log("hai")
 mongoose.connect(dbUrl, {useNewUrlParser: true,})
 .then(() => console.log("DataBase Connection Establishment..!"))
 .catch(err => console.log(err))
